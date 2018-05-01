@@ -1,0 +1,126 @@
+.navbar {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.active {
+    background-color: gray;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropdown-button {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    transition: 0.2s;
+}
+
+.navbar a:hover, .dropdown:hover .dropdown-button {
+    background-color: darkgray;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transition: 0.2s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.uploadButton {
+    background-color: black;
+}
+
+.tab {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding-left: 28px;
+    border-radius: 6px;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.2s;
+    font-size: 17px;
+    margin-top: 6px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.button {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 200px;
+    margin-right: 35px;
+    margin-top: 4px;
+    transition: 0.3s;
+    float: right;
+}
+
+.button:hover {
+    background-color: midnightblue;
+}

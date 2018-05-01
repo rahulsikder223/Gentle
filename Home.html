@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <script src="JS/Script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+    </head>
+    
+    <body>
+        <div>
+            <h1>This is AutoBish Website...</h1>
+        </div>
+        
+        <div class="navbar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-size: 30px">AutoBish</a>
+            </div>
+            <a class="active" href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
+            <a href="#"><span class="glyphicon glyphicon-profile"></span> Profile</a>
+            <a href="#"><span class="glyphicon glyphicon-book"></span> Demand</a>
+            <a href="#"><span class="glyphicon glyphicon-list-alt"></span> Manage SO</a>
+            <a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
+              
+            <div class="dropdown">
+               <button class="dropdown-button">More 
+                  <i class="fa fa-caret-down"></i>
+               </button>
+               <div class="dropdown-content">
+                  <a href="#">Page 1</a>
+                  <a href="#">Page 2</a>
+               </div>
+            </div>
+            
+            <a href="#" style="float:right"><span class="glyphicon glyphicon-info-sign"></span> Help</a>
+            <a href="#" style="float:right"><span class="glyphicon glyphicon-comment"></span> Feedback</a>
+            <a href="#" style="float:right"><span class="glyphicon glyphicon-search"></span>  </a>
+        </div>
+        
+        <div>
+            <h3 style="float: right; padding-right: 20px; font-weight: bold; font-size: 20px">Bishwadeep Sikder</h3>
+            <h3 style="float: right; font-size: 20px; padding-right: 10px">Welcome</h3>
+        </div>
+        <br/>
+        
+        <div>
+            <h3 style="float: left; padding-right: 20px; margin: 20px"><strong style="font-size: 30px">Profile Screen: </strong>Upload profiles, scan &amp; view profile score</h3>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div>
+            <div class="tab">
+                <button class="tablinks" onclick="openActionTab(event, 'ScannedSearch')">Scanned Search</button>
+                <button class="tablinks" onclick="openActionTab(event, 'PDPProfiles')">PDP Profiles</button>
+                <button class="tablinks" onclick="openActionTab(event, 'AdvancedSearch')">Advanced Search</button>
+                <button class="tablinks" onclick="openActionTab(event, 'MailTracker')">Mail Tracker</button>
+            </div>
+            
+            <div>
+                <button class="button"><span class="glyphicon glyphicon-export"></span> Export To Excel</button>
+                <button class="button"><span class="glyphicon glyphicon-circle-arrow-up"></span> Upload Resumes</button>
+            </div>
+
+            <br/>
+            <br/>
+            <div id="ScannedSearch" class="tabcontent">
+                <div class="panel panel-default" style="margin: 20px">
+                    <div class="panel-heading" style="background-color: royalblue; color: white">Scanned Profiles ( - Profiles uploaded ini last 4 hrs)   <span class="glyphicon glyphicon-tag" style="color: lightblue"></span>  BFSPMO
+                        &nbsp;<span class="glyphicon glyphicon-tag" style="color: lightgreen"></span>  CDeploy
+                        &nbsp;<span class="glyphicon glyphicon-tag" style="color: red"></span>  NACDeploy
+                        &nbsp;<span class="glyphicon glyphicon-tag" style="color: magenta"></span> Manual Uploads
+                        <div class="panel-title pull-right">Approved: <font style="background-color: white; color: blue; border-radius: 6px; font-size: 16px">1139</font></div>
+                        <div class="panel-title pull-right">Pending: <font style="background-color: white; color: blue; border-radius: 6px; font-size: 16px">2</font>&nbsp&nbsp</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+            </div>
+
+            <div id="PDPProfiles" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p> 
+            </div>
+
+            <div id="AdvancedSearch" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+            
+            <div id="MailTracker" class="tabcontent">
+                <h3>Tokaayo</h3>
+                <p>Tokaayo is the capital of Japuan.</p>
+            </div>
+        </div>
+    </body>
+</html>
